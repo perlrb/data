@@ -1,6 +1,7 @@
 name: Regenerate products data
 
 on:
+  workflow_dispatch: {}
   push:
     paths:
       - 'seed.csv'
