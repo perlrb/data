@@ -35,3 +35,5 @@ jobs:
           artifacts: "products.yaml"
           replacesArtifacts: true
           makeLatest: true
+          tag: ${{ steps.tag_version.outputs.new_tag }}
+          name: Release ${{ steps.tag_version.outputs.new_tag }}
