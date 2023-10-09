@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'seed.csv'
+      - '.github/workflows/regenerate_data.yaml'
     branches:
       - main
 
